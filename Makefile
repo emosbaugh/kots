@@ -49,7 +49,7 @@ ci-test:
 
 .PHONY: kots
 kots: fmt vet
-	go build ${LDFLAGS} -o bin/kots -tags "$(BUILDTAGS)" github.com/replicatedhq/kots/cmd/kots
+	go build ${LDFLAGS} -o bin/kots -tags "$(BUILDTAGS)" ./cmd/kots
 
 .PHONY: ffi
 ffi: fmt vet

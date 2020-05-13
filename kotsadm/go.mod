@@ -46,6 +46,7 @@ require (
 	go.uber.org/zap v1.13.0
 	go.undefinedlabs.com/scopeagent v0.1.15
 	golang.org/x/crypto v0.0.0-20200414173820-0848c9571904
+	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45 // indirect
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/go-playground/assert.v1 v1.2.1
 	gopkg.in/ini.v1 v1.51.0
@@ -66,6 +67,7 @@ replace (
 	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20170817175659-5f6282db7d65
 	github.com/docker/docker => github.com/docker/docker v0.0.0-20180522102801-da99009bbb11
 	github.com/nicksnyder/go-i18n => github.com/nicksnyder/go-i18n v1.10.1
+	github.com/replicatedhq/kots => ../
 	k8s.io/api => k8s.io/api v0.17.3
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.17.3
 	k8s.io/apimachinery => k8s.io/apimachinery v0.17.3
